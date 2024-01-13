@@ -40,3 +40,5 @@ audio_array = model.generate(**text_inputs, tgt_lang="tel")[0].cpu().numpy().squ
 
 sf.write('input_audio.wav', audio_array, processor.feature_extractor.sampling_rate)
 
+#input_audio.wav was then uploaded with input_vid to https://bhaasha.iiit.ac.in/lipsync/ to get the desired output
+
